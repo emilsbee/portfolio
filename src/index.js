@@ -1,12 +1,16 @@
+// External imports
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
+// Internal imports
+import Home from "./components/Home"
 import reportWebVitals from './reportWebVitals';
+import "./styles/styles.scss"
+import "./fonts/inter/inter.ttf"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );

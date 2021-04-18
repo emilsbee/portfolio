@@ -1,0 +1,21 @@
+// This file sets the default styles for general elements. 
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter"),
+        url("../fonts/inter/inter.ttf") format("truetype");
+    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+@import '../../../styles/settings.scss';
+
+#rainbow-tracker-title {
+    font-size: $sub-title-font-size;
+    color: $default-color;
+}
+
+#rainbow-tracker-details {
+    margin-top: 20px;
+    font-size: $body-font-size;
+    color: $default-color;
+    line-height: $body-line-height;
+}
+
+#rainbow-tracker-link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 20px;
+}

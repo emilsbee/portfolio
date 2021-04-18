@@ -1,0 +1,48 @@
+@import '../../styles/settings.scss';
+
+#about-me-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 50px;
+    padding-bottom: 35px;
+    padding-right: 35px;
+    padding-left: 35px;
+    color: $default-color;
+}
+
+#self-image {
+    border-radius: 75px;
+    height: 150px;
+    margin-right: 35px;
+}
+
+#about-me-description {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-me-description-title {
+    font-size: $title-font-size;
+    line-height: $title-line-height;
+}
+
+#about-me-description-details {
+    font-size: $body-font-size;
+    line-height: $body-line-height;
+}
+
+#links-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100%;
+    padding-right: 35px;
+    padding-left: 35px;
+
+    font-size: $body-font-size;
+}
+
