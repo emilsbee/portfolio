@@ -23,6 +23,13 @@
     border-radius: 75px;
     height: 150px;
     margin-right: 35px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 530px) {
+    #self-image {
+        margin-bottom: 35px;
+    }
 }
 
 #about-me-description {
