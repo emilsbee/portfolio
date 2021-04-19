@@ -6,6 +6,11 @@ import "./project-section.scss";
 import ProjectContainer from "./ProjectContainer"
 import RainbowTracker from "./RainbowTracker"
 import MealPlanner from "./MealPlanner"
+import BataApp from "./BataApp"
+import CaishenBackend from "./CaishenBackend"
+import CaishenMobile from "./CaishenMobile"
+import BattleshipGame from "./BattleshipGame"
+import Portfolio from "./Portfolio"
 
 const ProjectSection = () => {
     return (
@@ -14,10 +19,25 @@ const ProjectSection = () => {
                 Personal projects
             </div>
             <ProjectContainer>
-                <RainbowTracker />
+                <RainbowTracker/>
             </ProjectContainer>
             <ProjectContainer>
-                <MealPlanner />
+                <CaishenBackend/>
+            </ProjectContainer>
+            <ProjectContainer>
+                <CaishenMobile/>
+            </ProjectContainer>
+            <ProjectContainer>
+                <BataApp/>
+            </ProjectContainer>
+            <ProjectContainer>
+                <MealPlanner/>
+            </ProjectContainer>
+            <ProjectContainer>
+                <BattleshipGame/>
+            </ProjectContainer>
+            <ProjectContainer>
+                <Portfolio/>
             </ProjectContainer>
         </div>
     );

@@ -6,44 +6,38 @@ import Button from "../../BasicComponents/Button"
 import Tech from "../TechStack/Tech"
 import TechStack from "../TechStack"
 
-const MealPlanner = () => {
+const CaishenBackend = () => {
     return (
         <div className="project-container">
             <div className="project-title">
-                Meal planner
+                Caishen personal finance management API
             </div>
 
             <div className="project-details">
-                Simple way to collect and create recipes to use for meal planning. Allows for grocery list creation based
-                on recipe ingredients.
+                API for the Caishen personal finance management front-end applications. Allows for the classic 
+                features of a personal finance app, that is managing accounts, payments, etc. Includes an extra 
+                awesome feature which is the syncing of payments with your actual bank accounts. The API fetches all 
+                latest payments and all you have to do is categorize them within one of the apps.
             </div>
 
             <div className="project-link-container">
                 <a 
-                        href="https://www.github.com/emilsbee/food-app" 
+                        href="https://www.github.com/emilsbee/caishen" 
                         target="_blank"
                         style={{textDecoration:"none"}}
                 >
                         <Button text="Github" backgroundColor="rgb(31, 29, 26)" onClick={() => null} styles={{marginLeft: 0}}/>
                 </a>
-
-                <a
-                    href="https://food.emils.xyz/" 
-                    target="_blank"
-                    style={{textDecoration:"none"}}
-                >
-                    <Button text="Live demo" backgroundColor="rgb(31, 29, 26)"/>
-                </a>
             </div>
 
             <TechStack>
-                <Tech type="React"/>
-                <Tech type="Firebase"/>
-                <Tech type="EasyPeasy"/>
-                <Tech type="Sass"/>
+                <Tech type="Node"/>
+                <Tech type="SQLite3"/>
+                <Tech type="TypeORM"/>
+                <Tech type="Typescript"/>
             </TechStack>
         </div>
     );
 }
  
-export default MealPlanner;
+export default CaishenBackend;

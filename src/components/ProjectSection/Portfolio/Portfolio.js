@@ -6,44 +6,34 @@ import Button from "../../BasicComponents/Button"
 import Tech from "../TechStack/Tech"
 import TechStack from "../TechStack"
 
-const MealPlanner = () => {
+const Portfolio = () => {
     return (
         <div className="project-container">
             <div className="project-title">
-                Meal planner
+                Portfolio website
             </div>
 
             <div className="project-details">
-                Simple way to collect and create recipes to use for meal planning. Allows for grocery list creation based
-                on recipe ingredients.
+                Yes, you guessed it, it's the same website you're viewing right now. It's a collection of the various
+                bits of programming I've done throughout time. 
             </div>
 
             <div className="project-link-container">
                 <a 
-                        href="https://www.github.com/emilsbee/food-app" 
+                        href="https://www.github.com/emilsbee/Portfolio" 
                         target="_blank"
                         style={{textDecoration:"none"}}
                 >
                         <Button text="Github" backgroundColor="rgb(31, 29, 26)" onClick={() => null} styles={{marginLeft: 0}}/>
                 </a>
-
-                <a
-                    href="https://food.emils.xyz/" 
-                    target="_blank"
-                    style={{textDecoration:"none"}}
-                >
-                    <Button text="Live demo" backgroundColor="rgb(31, 29, 26)"/>
-                </a>
             </div>
 
             <TechStack>
                 <Tech type="React"/>
-                <Tech type="Firebase"/>
-                <Tech type="EasyPeasy"/>
                 <Tech type="Sass"/>
             </TechStack>
         </div>
     );
 }
  
-export default MealPlanner;
+export default Portfolio;

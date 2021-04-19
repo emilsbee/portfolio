@@ -15,7 +15,7 @@ const Tech = ({type}) => {
             style={{textDecoration:"none"}}
         >
         <Button 
-            text={type} 
+            text={getTypeData(type).text} 
             onClick={() => null} 
             backgroundColor={getTypeData(type).backgroundColor}
             styles={{marginLeft: 0, marginRight: 10}}
