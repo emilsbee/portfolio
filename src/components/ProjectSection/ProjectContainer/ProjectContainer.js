@@ -7,7 +7,7 @@ import "./project-container.css";
 const ProjectContainer = (props) => {
 
     return (
-        <div id="project-container">
+        <div id="project-container-container">
             {props.children}
         </div>
     );

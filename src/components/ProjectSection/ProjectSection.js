@@ -5,6 +5,7 @@ import React from 'react';
 import "./project-section.scss";
 import ProjectContainer from "./ProjectContainer"
 import RainbowTracker from "./RainbowTracker"
+import MealPlanner from "./MealPlanner"
 
 const ProjectSection = () => {
     return (
@@ -14,6 +15,9 @@ const ProjectSection = () => {
             </div>
             <ProjectContainer>
                 <RainbowTracker />
+            </ProjectContainer>
+            <ProjectContainer>
+                <MealPlanner />
             </ProjectContainer>
         </div>
     );
