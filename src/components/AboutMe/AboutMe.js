@@ -24,24 +24,35 @@ const AboutMe = () => {
             </div>
 
             <div id="links-container">
-                Want to get in touch? Here's a few ways
-                <a 
-                    href="https://www.linkedin.com/in/em%C4%ABls-bernhards-15a47614a/?originalSubdomain=nl" 
-                    target="_blank"
-                    style={{textDecoration:"none"}}
-                >
-                    <Button text="LinkedIn" backgroundColor="rgb(40, 102, 188)" onClick={() => null}/>
-                </a>
+                <div style={{marginTop: 10}}>
+                    Want to get in touch? Here's a few ways
+                </div>
+                <div id="links-container-links">
+                    <a 
+                        href="https://www.linkedin.com/in/em%C4%ABls-bernhards-15a47614a/?originalSubdomain=nl" 
+                        target="_blank"
+                        id="links-container-link"
+                    >
+                        <Button text="LinkedIn" backgroundColor="rgb(40, 102, 188)" onClick={() => null} styles={{marginLeft: 0}}/>
+                    </a>
 
-                <Button text="Email" backgroundColor="rgb(139, 136, 130)" onClick={() => window.open('mailto:bernhardsemils@gmail.com?subject=Subject&body=Body')}/>
+                    <div id="links-container-link">
+                        <Button 
+                            styles={{marginLeft: 0}}
+                            text="Email" 
+                            backgroundColor="rgb(139, 136, 130)" 
+                            onClick={() => window.open('mailto:bernhardsemils@gmail.com?subject=Subject&body=Body')}
+                        />
+                    </div>
 
-                <a 
-                    href="https://www.github.com/emilsbee" 
-                    target="_blank"
-                    style={{textDecoration:"none"}}
-                >
-                    <Button text="Github" backgroundColor="rgb(31, 29, 26)" onClick={() => null}/>
-                </a>
+                    <a 
+                        href="https://www.github.com/emilsbee" 
+                        target="_blank"
+                        id="links-container-link"
+                    >
+                        <Button text="Github" backgroundColor="rgb(31, 29, 26)" onClick={() => null} styles={{marginLeft: 0}}/>
+                    </a>
+                </div>
             </div>
         </div>
     );

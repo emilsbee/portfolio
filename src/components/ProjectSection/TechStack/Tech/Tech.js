@@ -18,7 +18,7 @@ const Tech = ({type}) => {
             text={getTypeData(type).text} 
             onClick={() => null} 
             backgroundColor={getTypeData(type).backgroundColor}
-            styles={{marginLeft: 0, marginRight: 10}}
+            styles={{marginLeft: 0, marginRight: 10, marginBottom: 10}}
         />
         </a>
     );
