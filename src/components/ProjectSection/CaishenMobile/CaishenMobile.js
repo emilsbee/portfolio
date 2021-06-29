@@ -22,6 +22,7 @@ const CaishenMobile = () => {
                         href="https://www.github.com/emilsbee/CaishenMobile" 
                         target="_blank"
                         style={{textDecoration:"none"}}
+                        rel="noreferrer noopener"
                 >
                         <Button text="Github" backgroundColor="rgb(31, 29, 26)" onClick={() => null} styles={{marginLeft: 0}}/>
                 </a>

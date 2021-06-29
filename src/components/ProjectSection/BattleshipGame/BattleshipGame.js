@@ -23,6 +23,7 @@ const BattleshipGame = () => {
                         href="https://www.github.com/emilsbee/battleship-server" 
                         target="_blank"
                         style={{textDecoration:"none"}}
+                        rel="noreferrer noopener"
                 >
                         <Button text="Github server" backgroundColor="rgb(31, 29, 26)" onClick={() => null} styles={{marginLeft: 0}}/>
                 </a>
@@ -30,6 +31,7 @@ const BattleshipGame = () => {
                         href="https://www.github.com/emilsbee/battleship-client" 
                         target="_blank"
                         style={{textDecoration:"none"}}
+                        rel="noreferrer noopener"
                 >
                         <Button text="Github client" backgroundColor="rgb(31, 29, 26)" onClick={() => null}/>
                 </a>

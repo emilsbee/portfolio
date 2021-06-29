@@ -10,7 +10,7 @@ const AboutMe = () => {
     return (
         <div>
             <div id="about-me-container">
-                <img id="self-image" src={SelfImage} alt="Image of me"/>
+                <img id="self-image" src={SelfImage} alt=""/>
 
                 <div id="about-me-description">
                     <div id="about-me-description-title">
@@ -32,6 +32,7 @@ const AboutMe = () => {
                         href="https://www.linkedin.com/in/em%C4%ABls-bernhards-15a47614a/?originalSubdomain=nl" 
                         target="_blank"
                         id="links-container-link"
+                        rel="noreferrer noopener"
                     >
                         <Button text="LinkedIn" backgroundColor="rgb(40, 102, 188)" onClick={() => null} styles={{marginLeft: 0}}/>
                     </a>
@@ -49,6 +50,7 @@ const AboutMe = () => {
                         href="https://www.github.com/emilsbee" 
                         target="_blank"
                         id="links-container-link"
+                        rel="noreferrer noopener"
                     >
                         <Button text="Github" backgroundColor="rgb(31, 29, 26)" onClick={() => null} styles={{marginLeft: 0}}/>
                     </a>
