@@ -3,7 +3,7 @@ import React from 'react';
 
 // Internal imports
 import "./about-me.scss"
-import SelfImage from "./EMILS_0263.jpg"
+import SelfImage from "./EMILS_0263.webp"
 import Button from "../BasicComponents/Button"
 
 const AboutMe = () => {
