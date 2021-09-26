@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8c1c5cc0-3578-44c1-ad4e-be340d1c0461/deploy-status)](https://app.netlify.com/sites/dreamy-snyder-fcc6f1/deploys)
 ## Portoflio website
 
 The website includes all the necessary links, such as to LinkedIn, and also includes my resume. Furthermore, it displays list of my projects with a short description and links to the various techonologies used to develop the project. Although the project repository README is more descriptive and includes much more information, this portfolio website is a compilation of all things related to my journey as a developer. 
