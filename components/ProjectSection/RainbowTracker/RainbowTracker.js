@@ -15,10 +15,10 @@ const RainbowTracker = () => {
             </div>
 
             <div className={styles.projectDetails}>
-                This is a productivity tracker web app I built specifically for my brother, Tom. The idea behind it is pretty simple, each day is divided in 15 minute intervals.
-                Each interval is represented by a category and a specific activity from that category. A category for example could be "leisure" and its set of activities "reading", "cooking" and "video games".
-                The rainbow aspect comes from the fact that within the app, a category is represented by a colored box and an activity is on the right side of the category, and is represented by a one or two letter acronym. 
-                To learn more about the app and what it can do, you can check out both the live version of it and the Github repository.
+                {"This is a productivity tracker web app I built specifically for my brother, Tom. The idea behind it is pretty simple, each day is divided in 15 minute intervals." +
+                    " Each interval is represented by a category and a specific activity from that category. A category for example could be \"leisure\" and its set of activities \"reading\", \"cooking\" and \"video games\"." +
+                    " The rainbow aspect comes from the fact that within the app, a category is represented by a colored box and an activity is on the right side of the category, and is represented by a one or two letter acronym." +
+                    " To learn more about the app and what it can do, you can check out both the live version of it and the Github repository."}
             </div>
 
             <div className={styles.projectLinkContainer}>
