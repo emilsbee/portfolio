@@ -1,0 +1,22 @@
+.customButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+
+    margin-left: 10px;
+    padding: 10px;
+    height: 30px;
+    border-radius: 5px;
+
+    border: none;
+
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.customButton:hover {
+    cursor: pointer;
+}

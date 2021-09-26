@@ -1,0 +1,20 @@
+.projectTitle {
+    font-size: 27px;
+    color: rgb(59, 53, 53);
+}
+
+.projectDetails {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(59, 53, 53);
+    line-height: 30px;
+}
+
+.projectLinkContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 20px;
+}

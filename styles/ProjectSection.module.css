@@ -1,0 +1,11 @@
+.projectSectionContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.projectSectionTitle {
+    font-size: 30px;
+    color: rgb(59, 53, 53);
+}
