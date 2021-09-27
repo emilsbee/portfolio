@@ -7,8 +7,7 @@ import ProjectContainer from "./ProjectContainer"
 import RainbowTracker from "./RainbowTracker"
 import MealPlanner from "./MealPlanner"
 import BataApp from "./BataApp"
-import CaishenBackend from "./CaishenBackend"
-import CaishenMobile from "./CaishenMobile"
+import Caishen from "./Caishen"
 import BattleshipGame from "./BattleshipGame"
 import Portfolio from "./Portfolio"
 
@@ -28,11 +27,7 @@ const ProjectSection = () => {
             </ProjectContainer>
 
             <ProjectContainer>
-                <CaishenBackend/>
-            </ProjectContainer>
-
-            <ProjectContainer>
-                <CaishenMobile/>
+                <Caishen/>
             </ProjectContainer>
 
             <ProjectContainer>
