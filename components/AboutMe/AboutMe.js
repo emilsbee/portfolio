@@ -65,6 +65,18 @@ const AboutMe = () => {
                         <Button text="Github" backgroundColor="rgb(31, 29, 26)" onClick={() => null}
                                 styles={{marginLeft: 0}}/>
                     </a>
+
+                    <a
+                        className={styles.linksContainerLink}
+                        href={"/Résumé.pdf"}
+                        download
+                    >
+                        <Button
+                            text={"Résumé"}
+                            backgroundColor="rgb(31, 29, 26)"
+                            styles={{marginLeft: 0}}
+                        />
+                    </a>
                 </div>
             </div>
         </div>
