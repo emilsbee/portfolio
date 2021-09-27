@@ -5,7 +5,7 @@ export const getTypeData = (type) => {
         React: {
             backgroundColor: "rgb(113, 187, 214)",
             link: "https://reactjs.org/",
-            text: "ReactJS" 
+            text: "React.js"
         },
         Firebase: {
             backgroundColor: "rgb(243, 169, 63)",
@@ -30,12 +30,12 @@ export const getTypeData = (type) => {
         Node: {
             backgroundColor: "#43853d",
             link: "https://nodejs.org/en/",
-            text: "NodeJS"
+            text: "Node.js"
         },
         Express: {
             backgroundColor: "#555",
             link: "https://expressjs.com/",
-            text: "ExpressJS"
+            text: "Express.js"
         },
         TypeORM: {
             backgroundColor: "#E83524",
@@ -56,6 +56,21 @@ export const getTypeData = (type) => {
             backgroundColor: "rgb(146, 28, 18)",
             link: "https://www.java.com/en/",
             text: "Java"
+        },
+        Koa: {
+            backgroundColor: "#010101",
+            link: "https://koajs.com/",
+            text: "koa.js"
+        },
+        Postgres: {
+            backgroundColor: "#336791",
+            link: "https://www.postgresql.org/",
+            text: "PostgreSQL"
+        },
+        Redis: {
+            backgroundColor: "#a51f17",
+            link: "https://redis.io/",
+            text: "redis"
         }
     }
 

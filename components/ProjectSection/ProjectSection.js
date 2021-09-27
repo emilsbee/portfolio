@@ -18,24 +18,31 @@ const ProjectSection = () => {
             <div className={styles.projectSectionTitle}>
                 Personal projects
             </div>
+
             <ProjectContainer>
                 <RainbowTracker/>
             </ProjectContainer>
-            <ProjectContainer>
-                <CaishenBackend/>
-            </ProjectContainer>
-            <ProjectContainer>
-                <CaishenMobile/>
-            </ProjectContainer>
+
             <ProjectContainer>
                 <BataApp/>
             </ProjectContainer>
+
+            <ProjectContainer>
+                <CaishenBackend/>
+            </ProjectContainer>
+
+            <ProjectContainer>
+                <CaishenMobile/>
+            </ProjectContainer>
+
             <ProjectContainer>
                 <MealPlanner/>
             </ProjectContainer>
+
             <ProjectContainer>
                 <BattleshipGame/>
             </ProjectContainer>
+
             <ProjectContainer>
                 <Portfolio/>
             </ProjectContainer>

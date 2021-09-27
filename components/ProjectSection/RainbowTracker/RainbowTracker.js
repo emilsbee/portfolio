@@ -11,14 +11,11 @@ const RainbowTracker = () => {
     return (
         <div className="project-container">
             <div className={styles.projectTitle}>
-                Rainbow productivity tracker
+                Rainbow tracker
             </div>
 
             <div className={styles.projectDetails}>
-                {"This is a productivity tracker web app I built specifically for my brother, Tom. The idea behind it is pretty simple, each day is divided in 15 minute intervals." +
-                    " Each interval is represented by a category and a specific activity from that category. A category for example could be \"leisure\" and its set of activities \"reading\", \"cooking\" and \"video games\"." +
-                    " The rainbow aspect comes from the fact that within the app, a category is represented by a colored box and an activity is on the right side of the category, and is represented by a one or two letter acronym." +
-                    " To learn more about the app and what it can do, you can check out both the live version of it and the Github repository."}
+                {"Rainbow tracker is a personal time tracker web application. It facilitates tracking your life in 15-minute intervals using user-defined categories and activities. You can also write notes next to the categories/activities to further elaborate on what you were doing at that point. With convenient dragging functionality for categories/activities and notes, logging your time becomes super easy. Furthermore, there is an extensive analytics page to view the various statistics of how you have spent your time. And of course, you can edit the categories and activities to fit what exactly you spend time on."}
             </div>
 
             <div className={styles.projectLinkContainer}>
@@ -28,7 +25,16 @@ const RainbowTracker = () => {
                         style={{textDecoration:"none"}}
                         rel="noreferrer noopener"
                 >
-                        <Button text="Github" backgroundColor="rgb(31, 29, 26)" onClick={() => null} styles={{marginLeft: 0}}/>
+                        <Button text="Github frontend" backgroundColor="rgb(31, 29, 26)" onClick={() => null} styles={{marginLeft: 0}}/>
+                </a>
+
+                <a
+                    href="https://www.github.com/emilsbee/rainbow-tracker-backend"
+                    target="_blank"
+                    style={{textDecoration:"none"}}
+                    rel="noreferrer noopener"
+                >
+                    <Button text="Github backend" backgroundColor="rgb(31, 29, 26)" onClick={() => null}/>
                 </a>
 
                 <a
@@ -37,15 +43,17 @@ const RainbowTracker = () => {
                     style={{textDecoration:"none"}}
                     rel="noreferrer noopener"
                 >
-                    <Button text="Live demo" backgroundColor="rgb(31, 29, 26)"/>
+                    <Button text="Live site" backgroundColor="rgb(31, 29, 26)"/>
                 </a>
             </div>
 
             <TechStack>
                 <Tech type="React"/>
-                <Tech type="Firebase"/>
-                <Tech type="EasyPeasy"/>
+                <Tech type="Koa"/>
+                <Tech type="Typescript"/>
                 <Tech type="Sass"/>
+                <Tech type="Postgres"/>
+                <Tech type="Redis"/>
             </TechStack>
         </div>
     );
