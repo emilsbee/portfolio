@@ -71,6 +71,11 @@ export const getTypeData = (type) => {
             backgroundColor: "#a51f17",
             link: "https://redis.io/",
             text: "redis"
+        },
+        Next: {
+            backgroundColor: "#000",
+            link: "https://nextjs.org/",
+            text: "Next.js"
         }
     }
 

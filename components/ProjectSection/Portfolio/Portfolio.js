@@ -32,6 +32,7 @@ const Portfolio = () => {
 
             <TechStack>
                 <Tech type="React"/>
+                <Tech type="Next"/>
                 <Tech type="Sass"/>
             </TechStack>
         </div>

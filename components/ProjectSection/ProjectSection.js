@@ -27,6 +27,10 @@ const ProjectSection = () => {
             </ProjectContainer>
 
             <ProjectContainer>
+                <Portfolio/>
+            </ProjectContainer>
+
+            <ProjectContainer>
                 <Caishen/>
             </ProjectContainer>
 
@@ -36,10 +40,6 @@ const ProjectSection = () => {
 
             <ProjectContainer>
                 <BattleshipGame/>
-            </ProjectContainer>
-
-            <ProjectContainer>
-                <Portfolio/>
             </ProjectContainer>
         </div>
     );
