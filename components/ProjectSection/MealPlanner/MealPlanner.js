@@ -34,7 +34,7 @@ const MealPlanner = () => {
                     style={{textDecoration:"none"}}
                     rel="noreferrer noopener"
                 >
-                    <Button text="Live demo" backgroundColor="rgb(31, 29, 26)"/>
+                    <Button text="Live site" backgroundColor="rgb(31, 29, 26)"/>
                 </a>
             </div>
 
