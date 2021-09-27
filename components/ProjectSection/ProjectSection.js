@@ -10,6 +10,7 @@ import BataApp from "./BataApp"
 import Caishen from "./Caishen"
 import BattleshipGame from "./BattleshipGame"
 import Portfolio from "./Portfolio"
+import SaharaWonders from "./SaharaWonders";
 
 const ProjectSection = () => {
     return (
@@ -28,6 +29,10 @@ const ProjectSection = () => {
 
             <ProjectContainer>
                 <Portfolio/>
+            </ProjectContainer>
+
+            <ProjectContainer>
+                <SaharaWonders/>
             </ProjectContainer>
 
             <ProjectContainer>
