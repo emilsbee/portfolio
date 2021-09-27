@@ -15,8 +15,7 @@ const MealPlanner = () => {
             </div>
 
             <div className={styles.projectDetails}>
-                Simple way to collect and create recipes to use for meal planning. Allows for grocery list creation based
-                on recipe ingredients.
+                This was the first “real” web application I created. The problem it solves for me is meal planning and recipe collecting. It offers a simple way to collect and create recipes to use for meal planning. Of course, it allows you to plan recipes for the week and go back through weeks to view what you ate in the weeks before. Also, allows for grocery list creation based on recipe ingredients.
             </div>
 
             <div className={styles.projectLinkContainer}>
