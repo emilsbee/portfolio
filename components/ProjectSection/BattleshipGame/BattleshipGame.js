@@ -11,12 +11,11 @@ const BattleshipGame = () => {
     return (
         <div className="project-container">
             <div className={styles.projectTitle}>
-                Classic Battleship online terminal game 
+                Battleship
             </div>
 
             <div className={styles.projectDetails}>
-                The project consists of a front-end terminal user-interface and a simple socket server. 
-                This project is from the second module of university Java programming course.
+                This is the classic Battleship game. It consists of a front-end terminal user interface and a simple socket server, hence the game can be played online with others. This project was part of the university course.
             </div>
 
             <div className={styles.projectLinkContainer}>
