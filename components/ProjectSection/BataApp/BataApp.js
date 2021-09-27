@@ -11,7 +11,7 @@ const BataApp = () => {
     return (
         <div className="project-container">
             <div className={styles.projectTitle}>
-                Batavierenrace participant mobile application
+                Batavierenrace app
             </div>
 
             <div className={styles.projectDetails}>
