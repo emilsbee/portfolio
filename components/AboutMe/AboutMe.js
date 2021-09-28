@@ -52,7 +52,7 @@ const AboutMe = () => {
                             styles={{marginLeft: 0}}
                             text="Email"
                             backgroundColor="rgb(139, 136, 130)"
-                            onClick={() => window.open('mailto:bernhardsemils@gmail.com?subject=Subject&body=Body')}
+                            onClick={() => window.open('mailto:bernhards@emils.xyz?subject=Subject&body=Body')}
                         />
                     </div>
 
